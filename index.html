@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div id="header">
+            
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li> 
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li> 
+                    <li><a href="#contact">Contact</a></li>    
+                </ul>
+            </nav>
+        <div class="header-text">
+           <h1>Hey Hi,I'm <span>vishalakshi</span> <br> coding smarter solutions <br> day.</h1>
+        </div>
+        </div>
+    <!----------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>I am Vishalakshi, and I focus on learning and building software with Java, SQL, and Oracle SQL. My goal is to create meaningful solutions, improve my coding skills, and become a confident and skilled software developer.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Java</span><br> Core concepts, OOP, basic programming</li>
+                    <li><span>MySQL</span><br>Queries, database operations, and data retrieval.</li>
+                    <li><Span>Oracle SQL</Span><br>Database operations & data handling</li>
+                    <li><Span>HTML & CSS</Span><br>Basic web structure and styling</li>
+                    <li><Span>JavaScript(Basics)</Span><br>Interactive web elements</li>
+                </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Web Wevelopment - Nov 2025</Span><br>Built and designed my own responsive portfolio with a focus on clean UI and user experience.</li>
+                    <li><span> MySQL & Oracle SQL - Oct 2025</Span><br>Experienced in writing efficient queries in MySQL and Oracle SQL</li>
+                    <li><Span>Java - Jun 2024</Span><br> Committed to daily problem-solving to sharpen my developer skills.</li>
+                </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><Span>Nov 2025 - Dec 2025</Span><br>Web Development</li>
+                        <li><span>2022 -2026</span><br>B.E. Electrical and Electronics Engineering <br>Velalar College of Engineering and Technology</li>
+                        <li><Span>2020 - 2022</Span><br>HSC<br>St.Paul's.Matric.Hr.Sec.School</li>
+                   </ul> 
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+ <!-- RESUME SECTION -->
+<section id="resume" class="section container">
+    <h2 class="section-title">Resume</h2>
+    <p>Download my resume to see full education, projects, and work experience. I focus on Java, SQL, Oracle SQL, and Web Development.</p>
+    
+    <div class="resume-actions">
+        <a href="image/VISHALAKSHI B VCET-EEE(IT).pdf" class="btn btn-primary" target="_blank">View Resume</a>
+        <a href="image/VISHALAKSHI B VCET-EEE(IT).pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+        <a href="#contact" class="btn btn-outline">Request a Copy</a>
+    </div>
+    
+    <!-- Optional: Experience / Education -->
+    <div class="resume-grid">
+        <div class="resume-card">
+            <h3>Education</h3>
+            <p>B.E. Electrical & Electronics Engineering (2022–2026)<br>
+               Velalar College of Engineering & Technology</p>
+        </div>
+        <div class="resume-card">
+            <h3>Experience</h3>
+            <p>Web Development & SQL Projects (2024–2025)<br>
+               Building responsive portfolio and practicing coding daily.</p>
+        </div>
+    </div>
+</section>
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section container">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+            <img src="image/project 1.png" alt="Aircraft Marshalling Project">
+            <h3>Smart Aircraft Marshalling Signal (Robotics)</h3>
+            <p>Autonomous robotic system that assists aircraft marshalling using sensors and signal patterns.</p>
+            <div class="tags">
+                <span>Embedded C</span>
+                <span>Robotics</span>
+                <span>Control</span>
+            </div>
+            <a href="https://www.aviationhunt.com/aircraft-marshalling-signals/" class="btn btn-small" target="_blank">Read More</a>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+            <img src="image/project2.png" alt="Motor Drive Case Study">
+            <h3>Motor Drive Case Study</h3>
+            <p>Design and simulation of modern industrial motor drives with control techniques using MATLAB.</p>
+            <div class="tags">
+                <span>MATLAB</span>
+                <span>Motor Drives</span>
+            </div>
+            <a href="https://in.mathworks.com/discovery/motor-modeling.html" class="btn btn-small" target="_blank">Read More</a>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+            <img src="image/project 3.png" alt="SQL Portfolio">
+            <h3>SQL Portfolio</h3>
+            <p>Database designs and queries in MySQL and Oracle SQL demonstrating data analysis and project management.</p>
+            <div class="tags">
+                <span>SQL</span>
+                <span>Database</span>
+            </div>
+            <a href="https://www.dataquest.io/blog/sql-projects/" class="btn btn-small" target="_blank">Read More</a>
+
+        </article>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="section container">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <p>Email: <a href="mailto:vishababu831@gmail.com">vishababu831@gmail.com</a></p>
+            <p>Phone: <a href="tel:+91 8637642638">+91 8637642638</a></p>
+            <p>Location: Dharmapuri, Tamil Nadu, India</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/vishababu1702" target="_blank">View Profile</a></p>
+            <p>GitHub: <a href="https://github.com/vishababu831" target="_blank">View Repos</a></p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <form action="mailto:vishababu831@gmail.com" method="POST" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <input type="submit" value="Send Message" class="btn btn-primary">
+            </form>
+        </div>
+
+    </div>
+</section>
+
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){ 
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+    </script>
+    </body>
+</html>
